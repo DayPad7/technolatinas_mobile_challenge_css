@@ -1,0 +1,219 @@
+
+   
+  
+
+   
+   * {
+       box-sizing: border-box;
+       font-family: 'Hanken Grotesk', sans-serif;
+   }
+  
+      
+
+
+main{
+
+
+    width: 375px;
+    height:305px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  color: white;
+   background-image: linear-gradient(to top, hsl( 241, 81%, 54%), hsl(252, 100%, 67%));
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+    }
+    .sectionuno{ 
+        display: flex;
+        justify-content: center;
+        justify-items: flex-start;
+        color: #cac7c7be
+
+    }
+
+.resultado{
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 8px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.greatText{
+    margin-bottom: 5px;
+}
+
+.resultado span{
+    font-size: 40px;
+    ;
+}
+.resultado p{
+    color:  hsla(0, 0%, 100%, 0.301);
+    margin-top: 0;
+
+
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.feedback span{
+    display: flex;
+   text-align:center;
+    align-items: center;
+    color: #cac7c7be;
+}
+/* Section two*/
+
+.sectiondos {
+    width: 375px;
+    height:auto;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.summaryItemsList{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+  .sectiondos h3{
+font-size: 18px;
+}
+ 
+.reaction{
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+justify-content: space-between;
+color: hsl(0, 100%, 67%);
+background-color: hsla(0, 100%, 67%, 0.192);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+  
+  .score{
+    color:black; 
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-right: 14px;
+    margin-top: 0;
+    
+  }
+  .points{
+color: hsla(0, 0%, 2%, 0.329);
+  }
+
+/*memory section*/
+.memory{
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+justify-content: space-between;
+color: hsl(39, 100%, 56%);
+background-color: hsla(39, 100%, 56%, 0.192);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+.verbal{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color:hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.192);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.Visual{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.192);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+ 
+}
+button{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 37%;
+    padding-right: 37%;
+    margin-left: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color:white;
+    background-color: hsl(224, 30%, 27%);
+    
+}
+
+
+
+  
+
+    
+   
+    
+
+    
+    
+
+    
+    
+     
+
+
